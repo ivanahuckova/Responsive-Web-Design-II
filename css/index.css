@@ -132,7 +132,7 @@ hr {
 }
 
 .index-top-container div.landing-container {
-	width: 50%;
+	width: 100%;
 	text-align: center;
 }
 
@@ -142,7 +142,7 @@ hr {
 
 .index-top-container div.landing-container h1 {
 	font-size: 6rem;
-	text-align: center;
+    text-align: center;
 }
 
 .index-top-container div.landing-container a {
