@@ -89,7 +89,7 @@ hr {
 }
 
 .main-container {
-    margin: 1% 10%;
+    margin: 1% auto;
     max-width: 880px;
 }
 
