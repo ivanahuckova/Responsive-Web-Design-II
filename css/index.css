@@ -267,6 +267,10 @@ img.full-length-img {
         padding: 2% 16%;
     }
 
+    .index-top-container div.landing-container h1 {
+        font-size: 5.5rem;
+    }
+
     hr.hr-mobile {
         margin: 0 3%;
     }
