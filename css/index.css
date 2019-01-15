@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 4%;
 }
 
-/* CODE */
+/*------------------MY CODE------------------ */
 
 p {
     line-height: 1.25;
@@ -90,6 +90,7 @@ hr {
 
 .main-container {
     margin: 1% auto;
+    width: 100%;
     max-width: 880px;
 }
 
@@ -97,7 +98,7 @@ hr {
     margin: 0;
 } 
 
-/* NAVBAR */
+/*------------------NAVBAR------------------*/
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -122,15 +123,12 @@ hr {
 	margin-top: 5%;
 }
 
-.margin-top-3 {
-    margin-top:
-}
 .container {
 	display: flex;
 	justify-content: space-between;
 }
 
-/*INDEX CSS*/
+/*------------------INDEX CSS------------------*/
 .index-top-container {
 	align-items: center;
 }
@@ -147,6 +145,46 @@ hr {
 .index-top-container div.landing-container h1 {
 	font-size: 7rem;
     text-align: center;
+}
+
+h1 {
+    animation-duration: 10s;
+    animation-name: colors-bounce;
+    animation-iteration-count: infinite;
+}
+/*-------ANIMATION---------*/
+@keyframes colors-bounce {
+
+    0% {
+        color: blue;
+        transform: translateY(5%);
+    }
+
+    20% {
+        color: yellow;
+        transform: translateY(-60%);
+    }
+
+    40% {
+        color: purple;
+        transform: translateY(5%);
+    }
+
+    60% {
+        color: cyan;
+        transform: translateY(-60%);
+    }
+
+    80% {
+        color: greenyellow;
+        transform: translateY(5%);
+    }
+
+    100% {
+        color: orange;
+        transform: translateY(-60%);
+    }
+
 }
 
 .index-top-container div.landing-container a {
@@ -191,7 +229,7 @@ address h2 {
 	text-align: center;
 }
 
-/*MEDIA QUERIES*/
+/*------------------MEDIA QUERIES - TABLET------------------*/
 
 @media (max-width: 800px) {
     
@@ -203,7 +241,6 @@ address h2 {
         display: none;
     }
 
-    /*NAVBAR - TABLET*/
     .navbar {
         flex-direction: column-reverse;
     }
@@ -212,7 +249,37 @@ address h2 {
         margin-top: 3%;
         width: 100%;
     }
-    /*INDEX - MOBILE*/
+
+    /*-------ANIMATION---------*/
+@keyframes colors-bounce {
+
+    0% {
+        color: blue;
+        transform: translateX(50);
+    }
+
+    25% {
+        color: yellow;
+        transform: translateX(-50%);
+    }
+
+    50% {
+        color: purple;
+        transform: translateX(50%);
+    }
+
+    75% {
+        color: cyan;
+        transform: translateX(-50%);
+    }
+
+    100% {
+        color: greenyellow;
+        transform: translateX(50%);
+    }
+}
+/*------------------MEDIA QUERIES - MOBILE------------------*/
+
     .index-top-container {
         margin: 3% 0 10% 0;
         justify-content: center;
@@ -241,7 +308,7 @@ address h2 {
     .main-container {
         margin: 0;
     }
-    /*NAVBAR - MOBILE*/
+
     .navbar div.navigation {
         width: 100%;
         flex-direction: column;
@@ -265,7 +332,6 @@ address h2 {
         align-items: center;
     }
 
-    /*INDEX - MOBILE*/
     .index-top-container {
         margin: 10% 0 15% 0;
     }
@@ -313,5 +379,36 @@ address h2 {
     .copyright {
         margin: 3% 0;
     }
+
+    /*-------ANIMATION---------*/
+@keyframes colors-bounce {
+
+
+
+    0% {
+        color: blue;
+        transform: scale(1.4);
+    }
+
+    25% {
+        color: yellow;
+        transform: scale(0.3);
+    }
+
+    50% {
+        color: purple;
+        transform: scale(1.4);
+    }
+
+    75% {
+        color: cyan;
+        transform: scale(0.3);
+    }
+
+    100% {
+        color: greenyellow;
+        transform: scale(1.4);
+    }
+}
 
 }
