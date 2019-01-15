@@ -106,7 +106,7 @@ hr {
 
 .main-container {
 	margin: 1% auto;
-	width: 100%;
+	width: 95%;
 	max-width: 880px;
 }
 
@@ -136,7 +136,7 @@ hr {
 }
 
 .navbar div.logo {
-	width: 20%;
+	width: 25%;
 	text-align: right;
 }
 .margin-top-5 {
